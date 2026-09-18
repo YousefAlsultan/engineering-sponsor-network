@@ -1,7 +1,11 @@
-.env
-.env.*
 node_modules/
 .next/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+.local/
 dist/
 build/
 .DS_Store

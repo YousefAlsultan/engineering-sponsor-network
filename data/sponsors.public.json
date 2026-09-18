@@ -1,0 +1,1245 @@
+[
+  {
+    "id": "sponsor-1",
+    "fields": {
+      "Company Name": "maxon",
+      "Company Website": "https://www.maxongroup.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Young Engineers Program",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Components",
+        "Technical Services",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "Rocketry",
+        "Robotics",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Engineering Services",
+        "Industrial Equipment",
+        "Robotics"
+      ],
+      "What They Provide": "Drive-system products through subsidized pricing or full product sponsorship, plus technical expert support.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Global"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.maxongroup.com/en-us/cooperations/young-engineers-program",
+      "Alternative Contact URL": "https://www.maxongroup.com/en-us/cooperations/young-engineers-program",
+      "Public Summary": "maxon supports student engineering teams and young innovators with motors, drive technology and technical expertise.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.maxongroup.com/en-us/cooperations/young-engineers-program",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-2",
+    "fields": {
+      "Company Name": "Elecrow",
+      "Company Website": "https://www.elecrow.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Hardware Sponsorship",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Electronics",
+        "Manufacturing",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Rocketry",
+        "Robotics",
+        "CubeSat / Satellite",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Electronics",
+        "Manufacturing"
+      ],
+      "What They Provide": "PCB/PCBA, products, 3D printing and acrylic fabrication support through free samples, services or significant discounts after review.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://static-cdn.elecrow.com/activity/sponsorship/index",
+      "Alternative Contact URL": "https://static-cdn.elecrow.com/activity/sponsorship/index",
+      "Public Summary": "Elecrow accepts sponsorship requests for hardware-heavy student engineering projects and teams.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://static-cdn.elecrow.com/activity/sponsorship/index",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-3",
+    "fields": {
+      "Company Name": "SimScale",
+      "Company Website": "https://www.simscale.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Team Sponsorship",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Baja SAE",
+        "Formula Student",
+        "Rocketry",
+        "Robotics",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software",
+        "Engineering Services"
+      ],
+      "What They Provide": "Sponsored cloud simulation access for university competition teams across CFD, FEA, thermodynamics and electromagnetics.",
+      "Estimated Sponsorship Value": "One team account with 5,000 core hours and private projects, per the verified program description.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.simscale.com/student-competitions/",
+      "Alternative Contact URL": "https://www.simscale.com/student-competitions/",
+      "Public Summary": "SimScale sponsors student engineering teams with cloud-based simulation capacity and professional analysis tools.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.simscale.com/student-competitions/",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-4",
+    "fields": {
+      "Company Name": "Ansys",
+      "Company Website": "https://www.ansys.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Team Academic Sponsorship",
+      "Sponsorship Type": [
+        "Software"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software"
+      ],
+      "What They Provide": "Access to Ansys Mechanical/CFD, electromagnetic, GRANTA and related engineering simulation tools for qualifying student teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": "Promotion and logo recognition may be requested for supported teams.",
+      "Official Sponsorship URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=8dff0f4f-bc38-4338-af84-0a941c65b4d7",
+      "Alternative Contact URL": "https://www.fsaeonline.com/cdsweb/reg/CompInfo.aspx?CompetitionID=4357e4f0-86f0-4f66-b813-42cd62f97b1c",
+      "Public Summary": "Ansys provides high-value engineering simulation software access to qualifying collegiate engineering teams.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=8dff0f4f-bc38-4338-af84-0a941c65b4d7",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-5",
+    "fields": {
+      "Company Name": "SendCutSend",
+      "Company Website": "https://sendcutsend.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "STEM Sponsorship Program",
+      "Sponsorship Type": [
+        "Manufacturing",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Baja SAE",
+        "Rocketry",
+        "Robotics",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Manufacturing"
+      ],
+      "What They Provide": "Manufacturing sponsorship and discounts for university STEM and engineering teams, including custom-fabricated parts.",
+      "Estimated Sponsorship Value": "Typical manufacturing discounts noted around $250–$1,500, sometimes higher.",
+      "Geographic Eligibility": [
+        "North America"
+      ],
+      "Application Status": "Open",
+      "Eligibility / Requirements": "Program is aimed at U.S./Canada STEM teams, educators and technical projects; applications are reviewed competitively.",
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://sendcutsend.com/stem-sponsorships/",
+      "Alternative Contact URL": "https://sendcutsend.com/stem-sponsorships/",
+      "Public Summary": "SendCutSend sponsors engineering teams with manufacturing support and discounts for custom parts.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://sendcutsend.com/stem-sponsorships/",
+      "Deadline": "2026-10-10",
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-6",
+    "fields": {
+      "Company Name": "Siemens",
+      "Company Website": "https://www.siemens.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Academic Software for Student Competition Teams",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software",
+        "Engineering Services"
+      ],
+      "What They Provide": "Engineering software and academic resources that can support student competition teams, including design, simulation and PLM tools.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.siemens.com/en-us/academic/offering/",
+      "Alternative Contact URL": "https://www.siemens.com/en-us/company/academic-future-workforce/engineering-student-resources/",
+      "Public Summary": "Siemens provides academic engineering software and support relevant to student competition and design teams.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.siemens.com/en-us/academic/offering/",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-7",
+    "fields": {
+      "Company Name": "Dassault Systèmes",
+      "Company Website": "https://www.3ds.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "3DEXPERIENCE Student Competition Sponsorship",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "Rocketry",
+        "Robotics",
+        "CubeSat / Satellite",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software"
+      ],
+      "What They Provide": "Fully sponsored 3DEXPERIENCE access, including CATIA, SIMULIA and related tools, plus training materials and community support.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.3ds.com/edu/education/students/challenges",
+      "Alternative Contact URL": "https://www.3ds.com/edu/education/students/challenges",
+      "Public Summary": "Dassault Systèmes sponsors student competition teams with professional design and simulation software.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.3ds.com/edu/education/students/challenges",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-8",
+    "fields": {
+      "Company Name": "Cadence / MSC",
+      "Company Website": "https://www.cadence.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Competition Sponsorship",
+      "Sponsorship Type": [
+        "Software"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Baja SAE",
+        "Formula Student",
+        "Rocketry",
+        "Robotics",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software"
+      ],
+      "What They Provide": "Sponsored professional simulation and virtual-prototyping software for university competition teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www5.cadence.com/msc-student-sponsorship.html",
+      "Alternative Contact URL": "https://www5.cadence.com/msc-student-sponsorship.html",
+      "Public Summary": "Cadence/MSC provides professional CAE and simulation sponsorship to student competition teams building cars, drones, rockets and other engineered systems.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www5.cadence.com/msc-student-sponsorship.html",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-9",
+    "fields": {
+      "Company Name": "SOLIDWORKS",
+      "Company Website": "https://www.solidworks.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Team Sponsorship",
+      "Sponsorship Type": [
+        "Software"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "Robotics",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software"
+      ],
+      "What They Provide": "Sponsored SOLIDWORKS access for eligible university competition and engineering teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.solidworks.com/product/students/solidworks-sponsorship-student-teams",
+      "Alternative Contact URL": "https://www.solidworks.com/product/students/solidworks-sponsorship-student-teams",
+      "Public Summary": "SOLIDWORKS supports eligible collegiate engineering teams with sponsored CAD software access for design and competition work.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.solidworks.com/product/students/solidworks-sponsorship-student-teams",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-10",
+    "fields": {
+      "Company Name": "Mouser Electronics",
+      "Company Website": "https://www.mouser.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Academic Partnerships & Student Team Sponsorship",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Components",
+        "Electronics",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "Rocketry",
+        "Robotics",
+        "CubeSat / Satellite",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Electronics",
+        "Semiconductors"
+      ],
+      "What They Provide": "Student-team sponsorship and educational pricing for electronics-heavy engineering projects.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://hr.mouser.com/en/educationalsales/",
+      "Alternative Contact URL": "https://hr.mouser.com/en/educationalsales/",
+      "Public Summary": "Mouser invites student engineering teams to seek sponsorship and supports projects spanning mobility, space, robotics and green energy.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://hr.mouser.com/en/educationalsales/",
+      "Deadline": null,
+      "Last Checked": null,
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 1
+    }
+  },
+  {
+    "id": "sponsor-11",
+    "fields": {
+      "Company Name": "Polymaker",
+      "Company Website": "https://polymaker.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Sponsorship / Material Donation Requests",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Materials"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Rocketry",
+        "Robotics",
+        "CubeSat / Satellite",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Materials",
+        "Additive Manufacturing"
+      ],
+      "What They Provide": "3D-printing filament/material sponsorship or donations for projects and organizations after review.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://wiki.polymaker.com/polymaker-products/about-polymaker/polymaker-faq",
+      "Alternative Contact URL": "https://wiki.polymaker.com/polymaker-products/about-polymaker/polymaker-faq",
+      "Public Summary": "Polymaker accepts sponsorship and material-donation requests that can support university engineering teams using additive manufacturing.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://wiki.polymaker.com/polymaker-products/about-polymaker/polymaker-faq",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-12",
+    "fields": {
+      "Company Name": "igus",
+      "Company Website": "https://www.igus.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Young Engineers Support (YES)",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Components",
+        "Discount",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "Robotics",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Manufacturing",
+        "Industrial Equipment"
+      ],
+      "What They Provide": "Free or discounted engineering products, samples and sponsorship support for university projects and competitions.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.igus.com/company/yes/competitions",
+      "Alternative Contact URL": "https://www.igus.com/company/yes/competitions",
+      "Public Summary": "igus YES directly supports student engineering competitions and university projects with products and technical help.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.igus.com/company/yes/competitions",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 1
+    }
+  },
+  {
+    "id": "sponsor-13",
+    "fields": {
+      "Company Name": "Altair",
+      "Company Website": "https://www.altair.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Team Technology Sponsorship",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software",
+        "Engineering Services"
+      ],
+      "What They Provide": "Sponsored licenses for Altair engineering and simulation tools for student teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": "Teams may be expected to recognize Altair through website, vehicle/project branding and social channels.",
+      "Official Sponsorship URL": "https://web.altair.com/technology-sponsorship-request",
+      "Alternative Contact URL": "https://web.altair.com/technology-sponsorship-request",
+      "Public Summary": "Altair sponsors student engineering teams with professional simulation and design technology.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://web.altair.com/technology-sponsorship-request",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-14",
+    "fields": {
+      "Company Name": "OSH Cut",
+      "Company Website": "https://www.oshcut.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Academic Sponsorship",
+      "Sponsorship Type": [
+        "Manufacturing",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Manufacturing"
+      ],
+      "What They Provide": "Discounted online sheet-metal and fabrication orders for eligible schools and engineering teams.",
+      "Estimated Sponsorship Value": "50% off eligible online part orders; coupon codes are refreshed periodically.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": "Reasonable brand recognition on the finished work may be requested.",
+      "Official Sponsorship URL": "https://www.oshcut.com/academic-sponsorships",
+      "Alternative Contact URL": "https://www.oshcut.com/academic-sponsorships",
+      "Public Summary": "OSH Cut supports academic engineering projects with substantial discounts on custom-fabricated parts.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.oshcut.com/academic-sponsorships",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-15",
+    "fields": {
+      "Company Name": "Onshape",
+      "Company Website": "https://www.onshape.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Collegiate Team Sponsorship",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software"
+      ],
+      "What They Provide": "Onshape Education Enterprise access, onboarding and support for eligible postsecondary engineering project teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": "Supported teams may agree to sponsor recognition such as logo placement and website listing.",
+      "Official Sponsorship URL": "https://www.onshape.com/en/education/collegiate-teams",
+      "Alternative Contact URL": "https://www.onshape.com/en/education/collegiate-teams",
+      "Public Summary": "Onshape sponsors collegiate engineering teams with cloud CAD, onboarding and team collaboration support.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.onshape.com/en/education/collegiate-teams",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-16",
+    "fields": {
+      "Company Name": "Autodesk",
+      "Company Website": "https://www.autodesk.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "SAE Collegiate Design Series Support",
+      "Sponsorship Type": [
+        "Software"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Baja SAE",
+        "Formula Student"
+      ],
+      "Company Industry": [
+        "Software"
+      ],
+      "What They Provide": "Educational access to Autodesk engineering and manufacturing software for eligible SAE collegiate design teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.autodesk.com/education/competitions/sae",
+      "Alternative Contact URL": "https://www.autodesk.com/education/competitions/sae",
+      "Public Summary": "Autodesk supports SAE collegiate design teams with CAD/CAM software for design, collaboration and manufacturing workflows.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.autodesk.com/education/competitions/sae",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-17",
+    "fields": {
+      "Company Name": "Altium",
+      "Company Website": "https://www.altium.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Team Sponsorship",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "Rocketry",
+        "Robotics",
+        "CubeSat / Satellite",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software",
+        "Electronics"
+      ],
+      "What They Provide": "Free access to Altium design tools, training and support for eligible student engineering teams.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.altium.com/education/students",
+      "Alternative Contact URL": "https://www.altium.com/education/students",
+      "Public Summary": "Altium sponsors student teams working on electronics-heavy engineering projects with professional PCB design software and training.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.altium.com/education/students",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-18",
+    "fields": {
+      "Company Name": "JLCPCB",
+      "Company Website": "https://jlcpcb.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Education Program",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Electronics",
+        "Manufacturing"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Electronics",
+        "Manufacturing"
+      ],
+      "What They Provide": "Free PCB sponsorships and education-focused hardware support for qualifying student projects and institutions.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://jlcpcb.com/cooperation",
+      "Alternative Contact URL": "https://jlcpcb.com/cooperation",
+      "Public Summary": "JLCPCB offers education-focused PCB sponsorship that can support university engineering teams building electronics and prototypes.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://jlcpcb.com/cooperation",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-19",
+    "fields": {
+      "Company Name": "Protocase",
+      "Company Website": "https://www.protocase.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Sponsorship",
+      "Sponsorship Type": [
+        "Manufacturing",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "Rocketry",
+        "Robotics",
+        "Formula SAE",
+        "Aerospace",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Manufacturing"
+      ],
+      "What They Provide": "Custom enclosure and sheet-metal manufacturing sponsorship for eligible student teams.",
+      "Estimated Sponsorship Value": "Up to $500 per year toward qualifying manufacturing costs.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": "Applicants provide project details and sponsorship information for review.",
+      "What the Sponsor May Expect": "Sponsor recognition and marketing content may be required for supported projects.",
+      "Official Sponsorship URL": "https://www.protocase.com/community/sponsorship/",
+      "Alternative Contact URL": "https://www.protocase.com/community/sponsorship/",
+      "Public Summary": "Protocase helps student engineering teams offset custom enclosure and sheet-metal manufacturing costs.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.protocase.com/community/sponsorship/",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 1
+    }
+  },
+  {
+    "id": "sponsor-20",
+    "fields": {
+      "Company Name": "MISUMI",
+      "Company Website": "https://us.misumi-ec.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "University Sponsorship Program",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Components",
+        "Manufacturing",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Manufacturing",
+        "Industrial Equipment"
+      ],
+      "What They Provide": "Product sponsorship and educational discounts for university engineering teams and student organizations.",
+      "Estimated Sponsorship Value": "Up to $500 of eligible products per semester; separate educational discount program may also apply.",
+      "Geographic Eligibility": [
+        "North America"
+      ],
+      "Application Status": "Open",
+      "Eligibility / Requirements": "Program targets university students, faculty and student organizations in the U.S./Canada; deadlines vary by semester.",
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://us.misumi-ec.com/service/promotion/misumi-university-program/",
+      "Alternative Contact URL": "https://us.misumi-ec.com/service/promotion/misumi-university-program/",
+      "Public Summary": "MISUMI supports university engineering teams with product sponsorship and discounts for configurable mechanical components.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://us.misumi-ec.com/service/promotion/misumi-university-program/",
+      "Deadline": "2026-09-30",
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 1
+    }
+  },
+  {
+    "id": "sponsor-21",
+    "fields": {
+      "Company Name": "PCBWay",
+      "Company Website": "https://www.pcbway.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Future Innovators / Student Support",
+      "Sponsorship Type": [
+        "Electronics",
+        "Manufacturing",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Electronics",
+        "Manufacturing"
+      ],
+      "What They Provide": "Discounted PCB manufacturing and education support for verified student projects and school purchases.",
+      "Estimated Sponsorship Value": "Verified student projects: 50% off up to $200; verified school educational purchases: 50% off up to $2,000.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": "Supported PCB designs may require visible PCBWay branding.",
+      "Official Sponsorship URL": "https://www.pcbway.com/project/sponsor/future-innovators-program.html",
+      "Alternative Contact URL": "https://www.pcbway.com/project/sponsor/future-innovators-program.html",
+      "Public Summary": "PCBWay supports student engineering projects with significant PCB manufacturing discounts and education-focused sponsorship.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.pcbway.com/project/sponsor/future-innovators-program.html",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-22",
+    "fields": {
+      "Company Name": "MathWorks",
+      "Company Website": "https://www.mathworks.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Student Competition Software",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student"
+      ],
+      "Company Industry": [
+        "Software",
+        "Engineering Services"
+      ],
+      "What They Provide": "Complimentary MATLAB/Simulink software, training, engineering mentors and technical support for supported student competitions.",
+      "Estimated Sponsorship Value": null,
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.mathworks.com/academia/student-competitions/formula-sae.html",
+      "Alternative Contact URL": "https://www.mathworks.com/academia/student-competitions/formula-sae.html",
+      "Public Summary": "MathWorks supports Formula SAE and related student competition teams with software, training and technical expertise.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.mathworks.com/academia/student-competitions/formula-sae.html",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-23",
+    "fields": {
+      "Company Name": "3DXTECH",
+      "Company Website": "https://www.3dxtech.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "SAE Collegiate Team Discount",
+      "Sponsorship Type": [
+        "Materials",
+        "Discount"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Baja SAE",
+        "Formula Student"
+      ],
+      "Company Industry": [
+        "Materials",
+        "Additive Manufacturing"
+      ],
+      "What They Provide": "Discounted engineering-grade and high-performance 3D-printing materials for SAE collegiate teams.",
+      "Estimated Sponsorship Value": "15% discount on eligible materials, per the verified supplier announcement.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": null,
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=34a2cca4-ebe9-4318-9400-0d34ac664c88",
+      "Alternative Contact URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=34a2cca4-ebe9-4318-9400-0d34ac664c88",
+      "Public Summary": "3DXTECH gives SAE collegiate teams discounted access to advanced additive-manufacturing materials.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=34a2cca4-ebe9-4318-9400-0d34ac664c88",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-24",
+    "fields": {
+      "Company Name": "Xometry",
+      "Company Website": "https://www.xometry.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "2027 Formula SAE Team Stipend",
+      "Sponsorship Type": [
+        "Cash Sponsorship",
+        "Manufacturing"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student"
+      ],
+      "Company Industry": [
+        "Manufacturing"
+      ],
+      "What They Provide": "Competitive cash stipend support for selected Formula SAE teams.",
+      "Estimated Sponsorship Value": "$2,500 stipend for each selected team in the 2026–2027 program.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Open",
+      "Eligibility / Requirements": "Current program is limited to Formula SAE teams and includes a required LaunchPad Live keynote/discussion-room participation condition.",
+      "What the Sponsor May Expect": null,
+      "Official Sponsorship URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=897cfa02-0c8f-4bcd-a211-4c32c622f37a",
+      "Alternative Contact URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=897cfa02-0c8f-4bcd-a211-4c32c622f37a",
+      "Public Summary": "Xometry's current Formula SAE program offers selected teams direct cash support tied to the 2026–2027 season.",
+      "Directory Status": null,
+      "Company Claim Status": null,
+      "Source Type": null,
+      "Platform Relationship": null,
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": null,
+      "Source": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=897cfa02-0c8f-4bcd-a211-4c32c622f37a",
+      "Deadline": "2026-10-31",
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-15",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-25",
+    "fields": {
+      "Company Name": "PTC",
+      "Company Website": "https://www.ptc.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "PTC Education Collegiate Team Sponsorship",
+      "Sponsorship Type": [
+        "Software",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula SAE",
+        "Formula Student",
+        "Baja SAE",
+        "Rocketry",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Software",
+        "Engineering Services"
+      ],
+      "What They Provide": "A free collegiate sponsorship package with Creo Premium, Mathcad Prime, tutorials and community support.",
+      "Estimated Sponsorship Value": "Free academic sponsorship package; commercial-equivalent value is not published.",
+      "Geographic Eligibility": [
+        "Global"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": "Eligible collegiate teams and clubs using CAD for Formula SAE, Formula Student, Baja SAE, rocketry and other engineering competitions.",
+      "What the Sponsor May Expect": "Teams agree to academic-only use and the program requirements listed on the official application.",
+      "Official Sponsorship URL": "https://www.ptc.com/en/education/free-software/collegiate-teams",
+      "Alternative Contact URL": "https://www.ptc.com/en/education/free-software/collegiate-teams",
+      "Public Summary": "PTC supports collegiate design teams with professional CAD, engineering calculation software, learning resources and community access.",
+      "Directory Status": "Active",
+      "Company Claim Status": "Unclaimed",
+      "Source Type": "Official company program",
+      "Platform Relationship": "Independent Listing",
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": "ptc-collegiate-team-sponsorship",
+      "Source": "https://www.ptc.com/en/education/free-software/collegiate-teams",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-18",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-26",
+    "fields": {
+      "Company Name": "Analog Devices",
+      "Company Website": "https://www.analog.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "Anveshan Fellowship 2026–27",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Semiconductors",
+        "Electronics"
+      ],
+      "What They Provide": "Engineering components, development support and a structured implementation fellowship for selected university teams.",
+      "Estimated Sponsorship Value": "Support varies by selected project; the official program does not publish a standard cash value.",
+      "Geographic Eligibility": [
+        "India"
+      ],
+      "Application Status": "Closed",
+      "Eligibility / Requirements": "Teams of three to five full-time engineering university students based in India, with a faculty advisor.",
+      "What the Sponsor May Expect": "Selected teams follow the published proposal, implementation and finalist timeline.",
+      "Official Sponsorship URL": "https://www.analog.com/en/lp/001/anveshan.html",
+      "Alternative Contact URL": "https://www.analog.com/en/lp/001/anveshan.html",
+      "Public Summary": "Analog Devices' Anveshan fellowship supports Indian university engineering teams as they implement selected project proposals.",
+      "Directory Status": "Expired Archive",
+      "Company Claim Status": "Unclaimed",
+      "Source Type": "Official company program",
+      "Platform Relationship": "Independent Listing",
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": "analog-devices-anveshan-2026-27",
+      "Source": "https://www.analog.com/en/lp/001/anveshan.html",
+      "Deadline": "2026-07-15",
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-18",
+      "Has Contact Route": 0
+    }
+  },
+  {
+    "id": "sponsor-27",
+    "fields": {
+      "Company Name": "Würth Elektronik",
+      "Company Website": "https://www.we-online.com/",
+      "Company Logo / Thumbnail URL": null,
+      "Sponsorship Program Name": "University Student Association Support",
+      "Sponsorship Type": [
+        "Complimentary Products",
+        "Electronics",
+        "Technical Services"
+      ],
+      "Engineering Team Types": [
+        "Formula Student",
+        "Rocketry",
+        "Robotics",
+        "UAV / Drone",
+        "Solar Car",
+        "All Engineering Teams"
+      ],
+      "Company Industry": [
+        "Electronics",
+        "Engineering Services"
+      ],
+      "What They Provide": "Free electronic and electromechanical components, design help, technical workshops and other project support for student associations.",
+      "Estimated Sponsorship Value": "Support is tailored to the team's request; no fixed public value is listed.",
+      "Geographic Eligibility": [
+        "Unknown"
+      ],
+      "Application Status": "Ongoing",
+      "Eligibility / Requirements": "University student associations working on technical projects such as racing, aerospace, robotics, watercraft or lab initiatives.",
+      "What the Sponsor May Expect": "Teams should describe the products and technical support their project needs through the official contact route.",
+      "Official Sponsorship URL": "https://www.we-online.com/en/support/university",
+      "Alternative Contact URL": "https://www.we-online.com/en/support/university",
+      "Public Summary": "Würth Elektronik supports student engineering associations with components, technical advice and hands-on project assistance.",
+      "Directory Status": "Active",
+      "Company Claim Status": "Unclaimed",
+      "Source Type": "Official company program",
+      "Platform Relationship": "Independent Listing",
+      "Verification Status": "Verified Sponsor",
+      "Publish on Website": true,
+      "Slug": "wurth-elektronik-university-support",
+      "Source": "https://www.we-online.com/en/support/university",
+      "Deadline": null,
+      "Last Checked": "2026-09-18",
+      "Last Verified": "2026-09-18",
+      "Has Contact Route": 0
+    }
+  }
+]
