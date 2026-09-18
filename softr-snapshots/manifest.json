@@ -1,0 +1,200 @@
+{
+  "application": {
+    "id": "de5bbef7-3b25-4d72-bbe6-f6bb78b329d3",
+    "name": "Engineering Sponsor Network"
+  },
+  "generatedAt": "2026-09-18",
+  "sourceOfTruth": "Current Softr app",
+  "pages": [
+    {
+      "id": "0087efba-d2c7-4ed0-9bd6-09b579b4f188",
+      "path": "/directory",
+      "name": "Directory",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "1327207e-b087-4982-90a3-9e98941246ec",
+      "path": "/404",
+      "name": "Page not found",
+      "type": "PAGE_NOT_FOUND",
+      "enabled": true
+    },
+    {
+      "id": "167d67ab-770a-4e75-b3bb-6c144d41f51e",
+      "path": "/",
+      "name": "Home",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "1c821263-9751-4082-97ba-a06cc2710b4b",
+      "path": "/account",
+      "name": "Account settings",
+      "type": "USER_ACCOUNT",
+      "enabled": true
+    },
+    {
+      "id": "40127b54-9079-43aa-867b-35cb30050419",
+      "path": "/profile-setup",
+      "name": "Profile Setup",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "4c3c6eb8-16b9-4b62-8787-e2c90f2de61d",
+      "path": "/sign-up",
+      "name": "Sign up",
+      "type": "SIGN_UP",
+      "enabled": true
+    },
+    {
+      "id": "517dcdd6-31d9-4dcd-916f-a5982b1f99c3",
+      "path": "/c7cdf289-efa8-4e65-b64b-847b9b60db22",
+      "name": "9136419c-df18-45f2-8821-ed6fa6993b3a",
+      "type": "SHARED_BLOCKS",
+      "enabled": true
+    },
+    {
+      "id": "5ccf0d67-e115-499e-becf-ddeefcfcd4f6",
+      "path": "/link-expired",
+      "name": "Link expired",
+      "type": "LINK_EXPIRED",
+      "enabled": true
+    },
+    {
+      "id": "5f140071-5393-46b8-b0e2-d836aad7c67e",
+      "path": "/admin/applications",
+      "name": "Admin Applications",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "6027e32b-39d6-4140-b41f-dd8b7ff47d5b",
+      "path": "/sponsors",
+      "name": "Public Sponsors",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "72b65da6-d171-4f9b-b3f8-6c9bcf372af7",
+      "path": "/opportunity-details",
+      "name": "Opportunity Details",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "82d2640e-0c6b-42b2-aa9b-8d51ae451e97",
+      "path": "/onboarding",
+      "name": "Onboarding flow",
+      "type": "ONBOARDING_FLOW",
+      "enabled": true
+    },
+    {
+      "id": "841cbcbf-e246-4273-a60a-936d990219b1",
+      "path": "/company/dashboard",
+      "name": "Company Dashboard",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "85d7c267-dd36-4bce-8267-2b9a216b6690",
+      "path": "/reset-password",
+      "name": "Reset password",
+      "type": "RESET_PASSWORD",
+      "enabled": true
+    },
+    {
+      "id": "86bb6f13-86c2-4a94-90ab-41e996ab7355",
+      "path": "/401",
+      "name": "Permission denied",
+      "type": "PERMISSION_DENIED",
+      "enabled": true
+    },
+    {
+      "id": "9dbaeb9f-810d-48d0-be03-eef2c39cdde7",
+      "path": "/forgot-password",
+      "name": "Forgot password",
+      "type": "FORGOT_PASSWORD",
+      "enabled": true
+    },
+    {
+      "id": "bde2d48d-4250-4971-aff9-b8547ab816e0",
+      "path": "/login",
+      "name": "Log in",
+      "type": "LOG_IN",
+      "enabled": true
+    },
+    {
+      "id": "dba42452-7400-4fab-bba1-0806be413d56",
+      "path": "/team/dashboard",
+      "name": "Team Dashboard",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "e1030afa-7f91-4d28-8a82-4d0d407339b1",
+      "path": "/subscriptions",
+      "name": "Subscriptions",
+      "type": "USER",
+      "enabled": true
+    },
+    {
+      "id": "f185a1e1-1b42-45eb-aa0a-98b27e51d5b5",
+      "path": "/admin/stats",
+      "name": "Admin Statistics",
+      "type": "USER",
+      "enabled": true
+    }
+  ],
+  "vibeSnapshots": [
+    {
+      "route": "/",
+      "pageId": "167d67ab-770a-4e75-b3bb-6c144d41f51e",
+      "blockId": "0f9d093b-69c2-4092-ac84-d8ce41c88b9b",
+      "file": "home.tsx"
+    },
+    {
+      "route": "/sponsors",
+      "pageId": "6027e32b-39d6-4140-b41f-dd8b7ff47d5b",
+      "blockId": "3f39ca5a-0d9b-4e94-accb-6b17913c0deb",
+      "file": "sponsors.tsx"
+    },
+    {
+      "route": "/directory",
+      "pageId": "0087efba-d2c7-4ed0-9bd6-09b579b4f188",
+      "blockId": "ab1a6cd9-09a8-4957-8857-c1d43a8ffeb9",
+      "file": "directory-redirect.tsx"
+    },
+    {
+      "route": "/profile-setup",
+      "pageId": "40127b54-9079-43aa-867b-35cb30050419",
+      "blockId": "ca03d228-7314-4d97-8ebd-32988ea3ed9e",
+      "file": "profile-setup.tsx"
+    },
+    {
+      "route": "/admin/applications",
+      "pageId": "5f140071-5393-46b8-b0e2-d836aad7c67e",
+      "blockId": "eba5f423-0747-43bf-ba95-784774e489c4",
+      "file": "admin-applications.tsx"
+    },
+    {
+      "route": "/admin/stats",
+      "pageId": "f185a1e1-1b42-45eb-aa0a-98b27e51d5b5",
+      "blockId": "9956ca2e-3d47-427a-adf7-8c6870c6458d",
+      "file": "admin-stats.tsx"
+    },
+    {
+      "route": "/company/dashboard",
+      "pageId": "841cbcbf-e246-4273-a60a-936d990219b1",
+      "blockId": "282c1bbc-5fa5-4226-b87e-10b4d8e93f5a",
+      "file": "company-dashboard.tsx"
+    },
+    {
+      "route": "/subscriptions",
+      "pageId": "e1030afa-7f91-4d28-8a82-4d0d407339b1",
+      "blockId": "b84a54d7-6802-4405-a659-d02d424fe08c",
+      "file": "subscriptions.tsx"
+    }
+  ]
+}
