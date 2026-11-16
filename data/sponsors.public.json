@@ -44,7 +44,7 @@
       "Slug": null,
       "Source": "https://www.maxongroup.com/en-us/cooperations/young-engineers-program",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -95,7 +95,7 @@
       "Slug": null,
       "Source": "https://static-cdn.elecrow.com/activity/sponsorship/index",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -126,7 +126,7 @@
         "Engineering Services"
       ],
       "What They Provide": "Sponsored cloud simulation access for university competition teams across CFD, FEA, thermodynamics and electromagnetics.",
-      "Estimated Sponsorship Value": "One team account with 5,000 core hours and private projects, per the verified program description.",
+      "Estimated Sponsorship Value": "One team account with 3,000 core hours and private projects, according to the current sponsor page.",
       "Geographic Eligibility": [
         "Unknown"
       ],
@@ -145,8 +145,8 @@
       "Slug": null,
       "Source": "https://www.simscale.com/student-competitions/",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-15",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -188,7 +188,7 @@
       "Slug": null,
       "Source": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=8dff0f4f-bc38-4338-af84-0a941c65b4d7",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -219,13 +219,13 @@
       "Geographic Eligibility": [
         "North America"
       ],
-      "Application Status": "Open",
+      "Application Status": "Seasonal",
       "Eligibility / Requirements": "Program is aimed at U.S./Canada STEM teams, educators and technical projects; applications are reviewed competitively.",
       "What the Sponsor May Expect": null,
       "Official Sponsorship URL": "https://sendcutsend.com/stem-sponsorships/",
       "Alternative Contact URL": "https://sendcutsend.com/stem-sponsorships/",
       "Public Summary": "SendCutSend sponsors engineering teams with manufacturing support and discounts for custom parts.",
-      "Directory Status": null,
+      "Directory Status": "Upcoming",
       "Company Claim Status": null,
       "Source Type": null,
       "Platform Relationship": null,
@@ -233,9 +233,9 @@
       "Publish on Website": true,
       "Slug": null,
       "Source": "https://sendcutsend.com/stem-sponsorships/",
-      "Deadline": "2026-10-10",
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-15",
+      "Deadline": "2027-03-10",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -326,7 +326,7 @@
       "Slug": null,
       "Source": "https://www.3ds.com/edu/education/students/challenges",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -374,7 +374,7 @@
       "Slug": null,
       "Source": "https://www5.cadence.com/msc-student-sponsorship.html",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -418,7 +418,7 @@
       "Slug": null,
       "Source": "https://www.solidworks.com/product/students/solidworks-sponsorship-student-teams",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -470,7 +470,7 @@
       "Slug": null,
       "Source": "https://hr.mouser.com/en/educationalsales/",
       "Deadline": null,
-      "Last Checked": null,
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 1
     }
@@ -507,8 +507,8 @@
       "Application Status": "Ongoing",
       "Eligibility / Requirements": null,
       "What the Sponsor May Expect": null,
-      "Official Sponsorship URL": "https://wiki.polymaker.com/polymaker-products/about-polymaker/polymaker-faq",
-      "Alternative Contact URL": "https://wiki.polymaker.com/polymaker-products/about-polymaker/polymaker-faq",
+      "Official Sponsorship URL": "https://shop.polymaker.com/pages/contact-sponsorship",
+      "Alternative Contact URL": "https://shop.polymaker.com/pages/contact-sponsorship",
       "Public Summary": "Polymaker accepts sponsorship and material-donation requests that can support university engineering teams using additive manufacturing.",
       "Directory Status": null,
       "Company Claim Status": null,
@@ -517,10 +517,10 @@
       "Verification Status": "Verified Sponsor",
       "Publish on Website": true,
       "Slug": null,
-      "Source": "https://wiki.polymaker.com/polymaker-products/about-polymaker/polymaker-faq",
+      "Source": "https://shop.polymaker.com/pages/contact-sponsorship",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-15",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -567,7 +567,7 @@
       "Slug": null,
       "Source": "https://www.igus.com/company/yes/competitions",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 1
     }
@@ -610,7 +610,7 @@
       "Slug": null,
       "Source": "https://web.altair.com/technology-sponsorship-request",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -652,7 +652,7 @@
       "Slug": null,
       "Source": "https://www.oshcut.com/academic-sponsorships",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -694,7 +694,7 @@
       "Slug": null,
       "Source": "https://www.onshape.com/en/education/collegiate-teams",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -737,7 +737,7 @@
       "Slug": null,
       "Source": "https://www.autodesk.com/education/competitions/sae",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -775,8 +775,8 @@
       "Application Status": "Ongoing",
       "Eligibility / Requirements": null,
       "What the Sponsor May Expect": null,
-      "Official Sponsorship URL": "https://www.altium.com/education/students",
-      "Alternative Contact URL": "https://www.altium.com/education/students",
+      "Official Sponsorship URL": "https://www.altium.com/education/sponsorships/team-stories",
+      "Alternative Contact URL": "https://www.altium.com/education/sponsorships/team-stories",
       "Public Summary": "Altium sponsors student teams working on electronics-heavy engineering projects with professional PCB design software and training.",
       "Directory Status": null,
       "Company Claim Status": null,
@@ -785,10 +785,10 @@
       "Verification Status": "Verified Sponsor",
       "Publish on Website": true,
       "Slug": null,
-      "Source": "https://www.altium.com/education/students",
+      "Source": "https://www.altium.com/education/sponsorships/team-stories",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-15",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -831,7 +831,7 @@
       "Slug": null,
       "Source": "https://jlcpcb.com/cooperation",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -877,7 +877,7 @@
       "Slug": null,
       "Source": "https://www.protocase.com/community/sponsorship/",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 1
     }
@@ -907,13 +907,13 @@
       "Geographic Eligibility": [
         "North America"
       ],
-      "Application Status": "Open",
+      "Application Status": "Seasonal",
       "Eligibility / Requirements": "Program targets university students, faculty and student organizations in the U.S./Canada; deadlines vary by semester.",
       "What the Sponsor May Expect": null,
       "Official Sponsorship URL": "https://us.misumi-ec.com/service/promotion/misumi-university-program/",
       "Alternative Contact URL": "https://us.misumi-ec.com/service/promotion/misumi-university-program/",
       "Public Summary": "MISUMI supports university engineering teams with product sponsorship and discounts for configurable mechanical components.",
-      "Directory Status": null,
+      "Directory Status": "Upcoming",
       "Company Claim Status": null,
       "Source Type": null,
       "Platform Relationship": null,
@@ -921,9 +921,9 @@
       "Publish on Website": true,
       "Slug": null,
       "Source": "https://us.misumi-ec.com/service/promotion/misumi-university-program/",
-      "Deadline": "2026-09-30",
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-15",
+      "Deadline": "2027-01-31",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 1
     }
   },
@@ -966,7 +966,7 @@
       "Slug": null,
       "Source": "https://www.pcbway.com/project/sponsor/future-innovators-program.html",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -1010,7 +1010,7 @@
       "Slug": null,
       "Source": "https://www.mathworks.com/academia/student-competitions/formula-sae.html",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -1055,7 +1055,7 @@
       "Slug": null,
       "Source": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=34a2cca4-ebe9-4318-9400-0d34ac664c88",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
+      "Last Checked": "2026-11-16",
       "Last Verified": "2026-09-15",
       "Has Contact Route": 0
     }
@@ -1083,13 +1083,13 @@
       "Geographic Eligibility": [
         "Unknown"
       ],
-      "Application Status": "Open",
+      "Application Status": "Closed",
       "Eligibility / Requirements": "Current program is limited to Formula SAE teams and includes a required LaunchPad Live keynote/discussion-room participation condition.",
       "What the Sponsor May Expect": null,
       "Official Sponsorship URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=897cfa02-0c8f-4bcd-a211-4c32c622f37a",
       "Alternative Contact URL": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=897cfa02-0c8f-4bcd-a211-4c32c622f37a",
       "Public Summary": "Xometry's current Formula SAE program offers selected teams direct cash support tied to the 2026–2027 season.",
-      "Directory Status": null,
+      "Directory Status": "Expired Archive",
       "Company Claim Status": null,
       "Source Type": null,
       "Platform Relationship": null,
@@ -1098,8 +1098,8 @@
       "Slug": null,
       "Source": "https://www.fsaeonline.com/cdsweb/app/NewsItem.aspx?NewsItemID=897cfa02-0c8f-4bcd-a211-4c32c622f37a",
       "Deadline": "2026-10-31",
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-15",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -1145,8 +1145,8 @@
       "Slug": "ptc-collegiate-team-sponsorship",
       "Source": "https://www.ptc.com/en/education/free-software/collegiate-teams",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-18",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -1188,8 +1188,8 @@
       "Slug": "analog-devices-anveshan-2026-27",
       "Source": "https://www.analog.com/en/lp/001/anveshan.html",
       "Deadline": "2026-07-15",
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-18",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   },
@@ -1237,8 +1237,8 @@
       "Slug": "wurth-elektronik-university-support",
       "Source": "https://www.we-online.com/en/support/university",
       "Deadline": null,
-      "Last Checked": "2026-09-18",
-      "Last Verified": "2026-09-18",
+      "Last Checked": "2026-11-16",
+      "Last Verified": "2026-11-16",
       "Has Contact Route": 0
     }
   }
