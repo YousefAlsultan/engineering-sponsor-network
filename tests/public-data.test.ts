@@ -16,3 +16,13 @@ test('export contains no email addresses or private source URLs and retains all 
   assert.equal(publicSponsors(data as SponsorRecord[]).length, 27);
   assert.doesNotMatch(JSON.stringify(data), /[\w.+-]+@[\w.-]+\.[a-z]{2,}|app\.notion\.com|notion\.so/i);
 });
+
+test('listings never claim an application is open past its recorded deadline', () => {
+  const today = new Date().toISOString().slice(0, 10);
+  for (const record of data) {
+    const deadline = record.fields.Deadline;
+    if (record.fields['Application Status'] === 'Open' && typeof deadline === 'string') {
+      assert.ok(deadline >= today, `${record.fields['Company Name']} has an expired deadline but is marked Open`);
+    }
+  }
+});
