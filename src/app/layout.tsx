@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import '@fontsource-variable/inter';
 import './globals.css';
-import { ScrollExperience } from '@/components/scroll-experience';
+import SponSierraShell from '@/components/sponsierra-shell';
 export const metadata: Metadata = {
-  title: 'Engineering Sponsor Network',
-  description: 'Discover companies that support university engineering teams.'
+  title: 'SponSierra | Engineering Your Next Breakthrough',
+  description: 'Discover source-backed sponsorship opportunities and match with industry support for university engineering teams.'
 };
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
-  return <html lang="en"><body><ScrollExperience />{children}</body></html>;
+  return <html lang="en"><body><SponSierraShell>{children}</SponSierraShell></body></html>;
 }

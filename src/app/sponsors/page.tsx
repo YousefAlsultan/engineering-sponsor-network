@@ -1,6 +1,5 @@
-import Sponsors from '@/components/sponsors';
-import { SponsorProvider } from '@/lib/datasource';
+import Marketplace from '@/components/sponsierra-marketplace';
 import { getPublicSponsors } from '@/lib/server/sponsors';
 export default async function Page() {
-  return <SponsorProvider records={await getPublicSponsors()}><Sponsors /></SponsorProvider>;
+  return <Marketplace records={await getPublicSponsors()} compact/>;
 }
