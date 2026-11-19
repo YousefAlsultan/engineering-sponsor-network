@@ -2,38 +2,38 @@
 
 ## Mission
 
-Recreate and extend **Engineering Sponsor Network** while preserving the current Softr design and behavior.
+Maintain and extend **SponSierra (Engineering Sponsor Network)**, a source-backed sponsorship marketplace for university engineering teams. The current Next.js UI is a redesigned standalone product.
 
 ## Non-negotiable first step
 
-Before changing design language, compare your implementation against the exact Softr source files in `softr-snapshots/`.
+Before changing behavior, inspect the current components in `src/components/sponsierra-*`, the public sponsor data model, and the applicable tests. Keep the current website working and avoid regressions.
 
-Do not replace the existing look with a generic SaaS template.
+The old Softr design in `softr-snapshots/` is historical reference; do not revert the current founder-approved SponSierra interface to it. Do not replace the current look with a generic SaaS template.
 
 ## Fidelity requirements
 
 Preserve:
-- existing wording unless a task explicitly changes copy
-- section order
-- dark engineering hero
-- blue/violet glow treatment
-- light neutral page background
-- engineering grid textures
-- pastel sponsor cards
+- existing wording and information architecture unless a task explicitly changes them
+- scarlet gradient sidebar and centered SponSierra header branding
+- dark animated blueprint/CAD hero and engineering-grid textures
+- light and dark page themes
+- dark sponsor cards with readable type, service icons, and clear statuses
 - consistent card heights and aligned CTAs
-- partner-company section
 - source-check and company-confirmed trust concepts
-- search/filter behavior
+- search, custom filter dropdowns, and favorites behavior
 - sponsor detail experience
-- structured sponsorship application flow
+- proposal draft workflow without implying an application is submitted
+- profile photo/post/like/comment demos clearly labeled browser-local
 - responsive layouts
-- moderator/admin visual style
+- reduced-motion and keyboard accessibility
 
 ## Technical note
 
-The files in `softr-snapshots/` are exact Vibe Coding source and contain Softr-specific imports such as `@/lib/datasource`.
+The files in `softr-snapshots/` are archived Vibe Coding source and contain Softr-specific imports such as `@/lib/datasource`.
 
-For a standalone implementation, translate those dependencies rather than deleting the UI.
+Current standalone UI components are in `src/components/`; do not reintroduce Softr-specific dependencies into the active pages.
+
+The GitHub source retains `src/app/api/applications/route.ts` and a standard Next.js server build. The separately deployed Sites preview is a static export and has no shared-user backend. Do not present browser-local profile images, posts, likes, or comments as publicly shared data.
 
 Recommended stack:
 - Next.js
@@ -68,14 +68,11 @@ Never commit:
 
 ## Build order
 
-1. Visual mirror of `/sponsors`
-2. Visual mirror of `/`
-3. Sponsor detail/application flow
-4. Auth/profile pages
-5. Moderator applications and stats
-6. Company dashboard prototype
-7. Subscription page
-8. Only then add new features
+1. Keep current homepage, directory, sponsor detail, matching, About, and Pricing routes working.
+2. Maintain sponsor-source provenance, safe updates, archived listings, and tests.
+3. Design secure team/company authentication and account ownership before enabling shared profiles.
+4. Add persistent storage, moderation, and safe image uploads before making posts, comments, or likes public.
+5. Integrate real subscription and application workflows only after appropriate validation and access controls exist.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
