@@ -1,0 +1,2 @@
+[functions.notion-account-sync]
+verify_jwt = false # Protected by NOTION_SYNC_SECRET inside the function, never called by the browser.

@@ -1,20 +1,8 @@
-# SponSierra — Engineering Sponsor Network
+# Engineering Sponsor Network
 
-SponSierra is a sponsorship-discovery platform for **university engineering teams**. It connects teams exploring support with source-backed programs from companies and organizations.
+Engineering Sponsor Network is a sponsorship-discovery platform for **university engineering teams**.
 
-This is the current Next.js source repository. The original Softr prototype is archived in `softr-snapshots/` for historical reference.
-
-The website preview is at [SponSierra](https://engineering-sponsor-network-yousef-preview.yousefalsultan.chatgpt.site/). It is currently owner-private. **This GitHub repository and the hosted Sites source repository are separate:** committing to this GitHub repository does not automatically redeploy the preview.
-
-## What is implemented today
-
-- Scarlet/red SponSierra navigation, optional persistent dark mode, responsive menu, and animated engineering-blueprint homepage.
-- Sponsor directory with search, animated resource categories, custom team/support dropdown filters, grid/list mode, source-backed details, and local favorites.
-- Sponsor detail pages with official-source links and a copyable **proposal draft**. Drafts are **not submitted** to companies.
-- Smart Match client-side questionnaire for finding relevant listed programs. It does not guarantee eligibility or funding.
-- Team profile demo with editable identity, banner/avatar images, a post feed, likes, and comments. These are **browser-local demos, not shared accounts or public posts**.
-- About and placeholder Pricing pages. Student teams are free in the current model; sponsor prices are concepts, not live checkout.
-- Server-side application API route retained in this GitHub repository for future integration. The separate static Sites preview does not expose that API.
+This repository is the engineering handoff for the current Softr prototype. Its first job is to preserve the current Softr website faithfully so Codex can rebuild or extend it without guessing.
 
 ## What the product does
 
@@ -28,27 +16,31 @@ Engineering team
   -> filter by team / need / industry / geography / dates
   -> open sponsor profile
   -> check eligibility and source
-  -> View Official Program
-  -> optionally draft an introduction to the sponsor
+  -> Apply for Sponsorship when a valid route exists
+  -> otherwise View Official Program
 ```
 
-## Current design and source of truth
+## Source of truth
 
-**The current SponSierra site and its design choices are the visual source of truth.** Preserve the scarlet identity, dark blueprint hero, resource modules, high-contrast sponsor cards, readable icons, and responsive layouts unless a new task explicitly changes them.
+**The current Softr app is the visual source of truth.**
 
-The original Softr custom-block source remains in `softr-snapshots/`. It is historical context, not an instruction to revert the current design.
+Exact current custom-block source is stored in `softr-snapshots/`.
 
-Keep trust language accurate: source-checked is **not** company-confirmed or partnered.
+Do not redesign the site before first matching those snapshots.
 
 ## Current visual language
 
-- scarlet engineering branding with a dark animated CAD/blueprint hero
-- light/dark page themes, responsive sidebar, and centered header branding
-- high-contrast dark sponsor-card palettes and resource-type icon tooltips
+- premium Apple-inspired spacing and typography
+- dark engineering hero with blue/violet ambient glow
+- off-white/light-gray page backgrounds
+- subtle blueprint / engineering grid texture
+- pastel sponsor-card backgrounds
 - equal sponsor-card geometry and aligned buttons
-- custom dropdowns, rounded panels, and interactive hover states
+- rounded modern panels and pill controls
+- restrained shadows and hover lift
 - Lucide engineering icons
-- transparent source-check trust iconography
+- source-check trust iconography
+- dedicated Partner Companies section above normal directory
 - responsive desktop/tablet/mobile behavior
 
 ## Important routes
@@ -58,44 +50,32 @@ Keep trust language accurate: source-checked is **not** company-confirmed or par
 | `/` | Home / primary discovery experience |
 | `/sponsors` | Public sponsor directory |
 | `/directory` | Legacy redirect |
-| `/sponsors/[id]` | Source-backed sponsor detail and proposal draft |
-| `/match` | Smart Match questionnaire |
-| `/profile` | Editable, browser-local university team profile demo |
-| `/about` | About SponSierra |
-| `/pricing` | Early subscription concepts (not active) |
+| `/profile-setup` | Account profile setup |
+| `/company/dashboard` | Company dashboard prototype |
+| `/team/dashboard` | Team dashboard shell |
+| `/subscriptions` | Pricing / business-model preview |
+| `/admin/applications` | Moderator application dashboard |
+| `/admin/stats` | Moderator analytics |
+| `/login` | Login |
+| `/sign-up` | Signup |
 
 ## Current data sources
 
-The historical Softr app referenced two Notion databases:
+The Softr app is backed by two Notion databases:
 
 1. **STEM Sponsor Database**
 2. **Sponsorship Applications**
 
 See `docs/database-schema.md`.
 
-This standalone repository currently reads the checked public export from `data/sponsors.public.json`. Do not expose private Notion records, email delivery contacts, or moderation notes in the public export. The public-data tests enforce important boundaries.
-
-## Run locally
-
-Requires Node.js 22.6+ and pnpm.
-
-```bash
-pnpm install
-pnpm dev
-pnpm typecheck
-pnpm test
-pnpm build
-```
-
-The GitHub version uses the regular Next.js server build so the existing application API can remain. The separately hosted static preview uses `output: 'export'` and contains public, client-side functionality only.
-
 ## Start here in Codex
 
-1. Read `AGENTS.md` and this README.
-2. Inspect `src/components/sponsierra-shell.tsx` and `src/components/sponsierra-marketplace.tsx`.
-3. Review `src/components/sponsierra-profile.tsx` for local-only demo behavior.
-4. Read `docs/product-spec.md` and `docs/sponsor-verification.md` for business rules.
-5. Before introducing shared profiles or posts, design authentication, access control, moderation, database storage, image storage, and user privacy.
+1. Read `AGENTS.md`.
+2. Read `docs/current-softr-map.md`.
+3. Read `docs/product-spec.md`.
+4. Inspect `softr-snapshots/sponsors.tsx`.
+5. Inspect `softr-snapshots/home.tsx`.
+6. Recreate the current UI before proposing redesigns.
 
 ## Public-repository safety
 

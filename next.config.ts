@@ -1,3 +1,4 @@
 import type { NextConfig } from 'next';
-const config: NextConfig = { devIndicators: false };
+// This temporary preview is read-only and can be hosted as static files.
+const config: NextConfig = { devIndicators: false, output: 'export' };
 export default config;

@@ -1,0 +1,20 @@
+/* Selected restrained pastel card treatment and topographic sidebar. */
+.ss-sidebar::before{background:url('/contours.svg') center/340px 550px repeat;opacity:.32;mask-image:none}
+.ss-sponsor-card{background:var(--ss-card-tint)!important;border:1px solid var(--ss-card-edge)!important;border-top:3px solid var(--ss-card-ink)!important;border-radius:18px;color:#252b38;box-shadow:0 6px 20px #24233308}
+.ss-palette-0{--ss-card-ink:#3d65ae}.ss-palette-1{--ss-card-ink:#b81b48}.ss-palette-2{--ss-card-ink:#28795f}.ss-palette-3{--ss-card-ink:#a56a27}.ss-palette-4{--ss-card-ink:#7655ae}.ss-palette-5{--ss-card-ink:#39718d}
+.ss-sponsor-card::before{display:none}
+.ss-sponsor-card:hover{transform:translateY(-4px);box-shadow:0 12px 26px #24233312}
+.ss-sponsor-card .ss-card-company{color:#222a37;font-size:1.18rem}
+.ss-sponsor-card .ss-card-program,.ss-sponsor-card .ss-card-region{color:#596170;font-size:.875rem}
+.ss-sponsor-card .ss-card-copy{color:#394150;font-size:1rem}
+.ss-sponsor-card .ss-card-logo{background:#ffffffb0!important;color:var(--ss-card-ink)!important;border-color:var(--ss-card-edge)!important}
+.ss-sponsor-card .ss-service-icon,.ss-sponsor-card .ss-service-extra{background:#ffffffa0;color:var(--ss-card-ink);border-color:var(--ss-card-edge)}
+.ss-sponsor-card .ss-card-bottom{border-color:var(--ss-card-edge)}
+.ss-sponsor-card .ss-card-arrow{background:#283347;color:white;font-size:.875rem}
+.ss-sponsor-card .ss-card-arrow svg{display:none}
+.ss-sponsor-card .ss-bookmark{color:#7d5363;background:#ffffffa0;border-color:var(--ss-card-edge)}
+.ss-sponsor-card .ss-bookmark.is-saved{background:#b81b48;color:white}
+html[data-ss-theme="dark"] .ss-sponsor-card{background:var(--ss-card-dark)!important;border-color:#ffffff26!important;border-top-color:var(--ss-card-accent)!important}
+html[data-ss-theme="dark"] .ss-sponsor-card .ss-card-company{color:#fff}
+html[data-ss-theme="dark"] .ss-sponsor-card .ss-card-program,html[data-ss-theme="dark"] .ss-sponsor-card .ss-card-copy,html[data-ss-theme="dark"] .ss-sponsor-card .ss-card-region{color:#d7dfec}
+html[data-ss-theme="dark"] .ss-sponsor-card .ss-card-logo,html[data-ss-theme="dark"] .ss-sponsor-card .ss-service-icon{background:#ffffff12!important;color:var(--ss-card-accent)!important;border-color:#ffffff28!important}

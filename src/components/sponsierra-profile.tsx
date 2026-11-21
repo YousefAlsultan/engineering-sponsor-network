@@ -8,7 +8,7 @@ type Comment={id:string;author:string;text:string};
 type Post={id:string;text:string;image:string;createdAt:string;likes:number;liked:boolean;comments:Comment[]};
 const PROFILE_KEY='sponsierra-profile-demo';
 const POSTS_KEY='sponsierra-profile-posts-demo';
-const DEFAULT:Profile={university:'Your university',team:'Your engineering team',discipline:'Rocketry · Robotics · Formula SAE',about:'Tell the story of your engineering team: the challenges you tackle, the things you build, and the impact you hope to create.',location:'United States',website:'',contact:'',members:'',achievements:'',banner:'',avatar:''};
+const DEFAULT:Profile={university:'The Ohio State University',team:'Your engineering organization',discipline:'Rocketry · Robotics · Formula SAE',about:'Tell the story of your Ohio State engineering organization: what you build, the challenges you tackle, and the impact you hope to create.',location:'Columbus, Ohio, United States',website:'',contact:'',members:'',achievements:'',banner:'',avatar:''};
 function safeWebsite(value:string){try{const url=new URL(/^https?:\/\//i.test(value)?value:`https://${value}`);return ['http:','https:'].includes(url.protocol)&&url.hostname.includes('.')?url.toString():''}catch{return ''}}
 
 // Resize images locally before saving to avoid large uploads and strip metadata.
@@ -43,12 +43,12 @@ export default function UniversityProfile(){
 
   useEffect(()=>{
     try{
-      const raw=window.localStorage.getItem(PROFILE_KEY);if(raw)setProfile({...DEFAULT,...JSON.parse(raw)});
+      const raw=window.localStorage.getItem(PROFILE_KEY);if(raw)setProfile({...DEFAULT,...JSON.parse(raw),university:DEFAULT.university,location:DEFAULT.location});
       const feed=window.localStorage.getItem(POSTS_KEY);if(feed){const parsed=JSON.parse(feed);if(Array.isArray(parsed))setPosts(parsed)}
     }catch{setNotice('Some saved demo data could not be loaded. You can still start fresh.')}
   },[]);
   const update=(key:keyof Profile,value:string)=>{setProfile(previous=>({...previous,[key]:value}));setSaved(false)};
-  const persist=()=>{try{window.localStorage.setItem(PROFILE_KEY,JSON.stringify(profile));setSaved(true);setEditing(false);setNotice('Your profile was saved on this device.')}catch{setNotice('Your browser storage is full. Try a smaller photo.')}};
+  const persist=()=>{try{window.localStorage.setItem(PROFILE_KEY,JSON.stringify({...profile,university:DEFAULT.university,location:DEFAULT.location}));setSaved(true);setEditing(false);setNotice('Your profile was saved on this device.')}catch{setNotice('Your browser storage is full. Try a smaller photo.')}};
   const persistPosts=(next:Post[])=>{try{window.localStorage.setItem(POSTS_KEY,JSON.stringify(next));setPosts(next);setNotice('');return true}catch{setNotice('Your browser storage is full. Try a smaller photo or delete an old post.');return false}};
   const handleImage=async(file:File|undefined,target:'banner'|'avatar'|'post')=>{if(!file)return;try{setNotice('Optimizing image…');const photo=await compressPhoto(file,target==='avatar'?420:target==='banner'?1300:1050);if(target==='post')setPostImage(photo);else update(target,photo);setNotice('Image ready. Save your profile or publish the post to keep it.')}catch(error){setNotice(error instanceof Error?error.message:'Could not open that image.')}};
   const openEditor=()=>{setVisitor(false);setEditing(true);window.setTimeout(()=>editorRef.current?.scrollIntoView({behavior:'smooth',block:'start'}),60)};

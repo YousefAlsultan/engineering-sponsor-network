@@ -26,12 +26,6 @@ const QUESTIONS: Question[]=[
     {value:'Electronics',label:'Electronics',sub:'Sensors, PCB, control systems',icon:Bot},
     {value:'Complimentary Products',label:'Products & materials',sub:'In-kind sponsorship and donations',icon:Building2},
   ]},
-  {field:'region',kicker:'GEOGRAPHIC ELIGIBILITY',title:'Where is your team based?',description:'We only award geographic-fit points when the published source supports them.',choices:[
-    {value:'United States',label:'United States',sub:'U.S. universities and organizations',icon:Flag},
-    {value:'Canada',label:'Canada',sub:'Canadian institutions',icon:Globe2},
-    {value:'Europe',label:'Europe',sub:'European university teams',icon:Globe2},
-    {value:'Global',label:'Other / global',sub:'Teams based elsewhere',icon:Globe2},
-  ]},
   {field:'stage',kicker:'PROJECT STAGE',title:'Where are you in your project?',description:'This helps us understand your needs. Program data does not yet support scoring by stage.',choices:[
     {value:'Concept',label:'Concept & research',sub:'Planning and early design',icon:Sparkles},
     {value:'Prototype',label:'Building the prototype',sub:'Manufacturing and iteration',icon:Wrench},
@@ -51,7 +45,7 @@ const QUESTIONS: Question[]=[
     {value:'Relationships',label:'Long-term collaboration',sub:'Build relationships with industry',icon:ShieldCheck},
   ]},
 ];
-const EMPTY:MatchAnswers={team:'',support:'',region:'',stage:'',timeframe:'',priority:''};
+const EMPTY:MatchAnswers={team:'',support:'',region:'United States',stage:'',timeframe:'',priority:''};
 
 export default function SmartMatch({records}:{records:SponsorRecord[]}) {
   const [step,setStep]=useState(0);
@@ -61,15 +55,15 @@ export default function SmartMatch({records}:{records:SponsorRecord[]}) {
   const choose=(value:string)=>{
     const updated={...answers,[question.field]:value};
     setAnswers(updated);
-    if(step<5) window.setTimeout(()=>setStep(s=>Math.min(s+1,6)),180);
-    else setStep(6);
+    if(step<QUESTIONS.length-1) window.setTimeout(()=>setStep(s=>Math.min(s+1,QUESTIONS.length)),180);
+    else setStep(QUESTIONS.length);
   };
   return <div className="ss-match-page">
-    <div className="ss-match-intro"><div className="ss-eyebrow"><Sparkles size={14}/> SPONSIERRA / SMART MATCH</div><h1>Your mission is unique.<br/><span>Your sponsors should be too.</span></h1><p>Six thoughtful questions. Curated sponsor recommendations. Transparent compatibility estimates.</p></div>
-    {step<6?<div className="ss-quiz-panel"><div className="ss-quiz-heading"><span>QUESTION {String(step+1).padStart(2,'0')} OF 06</span><span>{Math.round(step/6*100)}% COMPLETE</span></div><div className="ss-quiz-progress"><span style={{width:`${step/6*100}%`}}/></div>
+    <div className="ss-match-intro"><div className="ss-eyebrow"><Sparkles size={14}/> SPONSIERRA / SMART MATCH</div><h1>Your mission is unique.<br/><span>Your sponsors should be too.</span></h1><p>Five focused questions for Ohio State engineering organizations. Transparent compatibility estimates.</p></div>
+    {step<QUESTIONS.length?<div className="ss-quiz-panel"><div className="ss-quiz-heading"><span>QUESTION {String(step+1).padStart(2,'0')} OF {String(QUESTIONS.length).padStart(2,'0')}</span><span>{Math.round(step/QUESTIONS.length*100)}% COMPLETE</span></div><div className="ss-quiz-progress"><span style={{width:`${step/QUESTIONS.length*100}%`}}/></div>
       <div className="ss-eyebrow">{question.kicker}</div><h2>{question.title}</h2><p className="ss-quiz-description">{question.description}</p>
       <div className="ss-quiz-choices">{question.choices.map(choice=><button key={choice.value} className={`ss-quiz-choice ${answers[question.field]===choice.value?'is-selected':''}`} onClick={()=>choose(choice.value)}><span className="ss-quiz-icon"><choice.icon size={23}/></span><span><strong>{choice.label}</strong><small>{choice.sub}</small></span><ChevronRight size={19} className="ss-quiz-chevron"/></button>)}</div>
-      <div className="ss-quiz-footer"><button disabled={step===0} onClick={()=>setStep(s=>s-1)}><ArrowLeft size={16}/> Back</button><span>Personalized for university engineering teams</span></div>
+      <div className="ss-quiz-footer"><button disabled={step===0} onClick={()=>setStep(s=>s-1)}><ArrowLeft size={16}/> Back</button><span>Ohio State organizations · United States</span></div>
     </div>:<div className="ss-results-page"><div className="ss-results-hero"><div><span className="ss-eyebrow ss-eyebrow-light"><Check size={15}/> MISSION PROFILE CREATED</span><h2>Your sponsor shortlist is ready.</h2><p>Based on your {answers.team.toLowerCase()} team looking for {answers.support.toLowerCase()}.</p></div><button onClick={()=>{setStep(0);setAnswers(EMPTY)}}>Retake assessment <ArrowRight size={16}/></button></div>
       <div className="ss-score-explainer"><ShieldCheck size={20}/><p><strong>How percentages work:</strong> These are estimated compatibility scores, not funding probabilities. Team type (35%), support type (35%), geography (20%), and application availability (10%) determine each score. Unknown eligibility is never treated as confirmed. Your project stage and preferences are saved only in this temporary assessment and do not yet influence the scores.</p></div>
       <div className="ss-section-head"><div><span className="ss-eyebrow">YOUR TOP SPONSORS</span><h2>Opportunities worth exploring.</h2></div><Link href="/sponsors" className="ss-text-link">Browse all sponsors <ArrowRight size={16}/></Link></div>

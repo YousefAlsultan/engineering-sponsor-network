@@ -137,6 +137,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 /* Marketplace */
 .ss-hero{position:relative;min-height:535px;background:#24171b;color:#fff;overflow:hidden;isolation:isolate}
 .ss-hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:55px 55px;z-index:-1}
+.ss-hero-image{position:absolute;inset:0;z-index:-2;background:url('/rover-landing.png') right 40%/cover no-repeat;opacity:.62;filter:saturate(.77)}
 .ss-hero:after{position:absolute;content:'';inset:0;z-index:-1;background:linear-gradient(90deg,#231318 3%,rgba(35,19,24,.95) 27%,rgba(35,19,24,.45) 72%,rgba(35,19,24,.24))}
 .ss-hero-content{max-width:850px;padding:clamp(60px,7vw,105px) clamp(24px,5vw,73px) 70px;position:relative;z-index:2}
 .ss-hero-overline{font-size:10px;font-weight:850;color:#ffbecb;letter-spacing:.18em;display:flex;align-items:center;gap:11px}
@@ -786,3 +787,145 @@ html[data-ss-theme="dark"] .ss-section-head .ss-eyebrow{color:#ff96b4}
   .ss-blueprint-orbit,.ss-blueprint-beacon,.ss-blueprint-scanner{animation:none!important}
   .ss-hero-blueprint svg,.ss-blueprint-cad{transition:none!important;transform:none!important}
 }
+
+/* Selected redesign: scarlet technical blueprint in light mode, charcoal in dark mode. */
+html:not([data-ss-theme="dark"]) .ss-hero{background:#f5d9e1;color:#301624}
+html:not([data-ss-theme="dark"]) .ss-hero-blueprint{background:radial-gradient(ellipse at 77% 46%,#ffe2e9 0%,#edbac9 54%,#d99fb3 100%)}
+html:not([data-ss-theme="dark"]) .ss-hero-blueprint svg{filter:hue-rotate(138deg) saturate(1.22);opacity:.67}
+html:not([data-ss-theme="dark"]) .ss-hero:after{background:linear-gradient(90deg,#fff0f4 0%,rgba(255,237,243,.97) 29%,rgba(251,222,232,.64) 59%,rgba(244,190,208,.09) 100%)}
+html:not([data-ss-theme="dark"]) .ss-hero h1 em{color:#a30e38}
+html:not([data-ss-theme="dark"]) .ss-hero-content>p{color:#6c3448}
+html:not([data-ss-theme="dark"]) .ss-hero-grid{background-image:linear-gradient(rgba(140,29,62,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(140,29,62,.07) 1px,transparent 1px)}
+html:not([data-ss-theme="dark"]) .ss-hero .ss-button-glass{color:#81213f;border-color:rgba(147,37,72,.28);background:rgba(255,255,255,.6)}
+html:not([data-ss-theme="dark"]) .ss-hero .ss-button-white{color:#fff;background:#ac103c}
+html[data-ss-theme="dark"] .ss-hero{background:#0a0d12;color:#fff}
+html[data-ss-theme="dark"] .ss-hero-blueprint{background:radial-gradient(ellipse at 73% 45%,#24222c 0%,#11141b 57%,#090b10 100%)}
+html[data-ss-theme="dark"] .ss-hero-blueprint svg{filter:grayscale(.42) saturate(.67);opacity:.47}
+html[data-ss-theme="dark"] .ss-hero:after{background:linear-gradient(90deg,#090b11 0%,rgba(9,11,17,.98) 28%,rgba(9,11,17,.76) 62%,rgba(9,11,17,.18) 100%)}
+
+/* Soft bubble navigation with visible, separate tap targets. */
+.ss-sidebar .ss-nav{gap:9px}
+.ss-sidebar .ss-nav-item{border:1px solid rgba(255,220,232,.27);border-radius:999px;background:rgba(255,255,255,.095);color:#fff1f6;box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 7px 20px rgba(29,4,14,.12);padding:14px 16px;min-height:51px;font-weight:750}
+.ss-sidebar .ss-nav-item:hover{color:#fff;background:rgba(255,255,255,.23);transform:translateX(4px) scale(1.025);box-shadow:0 10px 25px rgba(23,4,13,.22),inset 0 1px 0 rgba(255,255,255,.2)}
+.ss-sidebar .ss-nav-item.is-active{color:#8b1537;border-color:#fff;background:linear-gradient(120deg,#fff,#ffe6ee);box-shadow:0 10px 25px rgba(26,3,14,.24)}
+.ss-sidebar .ss-nav-item>svg{width:22px;height:22px}
+.ss-collapsed .ss-sidebar .ss-nav-item{padding:14px;justify-content:center}
+
+/* Selected round dashboard counters, replacing rectangular stats and OSU label. */
+.ss-hero-foot{gap:19px}
+.ss-hero-orb{position:relative;width:139px;height:139px;border-radius:50%;flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:6px;background:rgba(255,255,255,.38);box-shadow:0 18px 35px rgba(91,16,43,.08);isolation:isolate;transition:transform .35s ease,box-shadow .35s ease}
+.ss-hero-orb:before{content:'';position:absolute;inset:0;border-radius:inherit;padding:2px;background:conic-gradient(from 15deg,#ad1744,#ffb1ca,#b21848,#ad1744);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:ss-orb-ring 10s linear infinite}
+.ss-hero-orb:after{content:'';position:absolute;inset:9px;border:1px solid rgba(162,49,85,.16);border-radius:inherit;pointer-events:none}
+.ss-hero-orb:hover{transform:translateY(-6px) scale(1.045);box-shadow:0 22px 38px rgba(91,16,43,.18)}
+.ss-hero-orb strong{font-size:37px;line-height:1;font-weight:900;color:#962049;letter-spacing:-.07em}
+.ss-hero-orb small{font-size:12px;line-height:1.4;font-weight:750;color:#704355}
+html[data-ss-theme="dark"] .ss-hero-orb{background:rgba(255,255,255,.045);box-shadow:0 18px 35px rgba(0,0,0,.2)}
+html[data-ss-theme="dark"] .ss-hero-orb strong{color:#fff}
+html[data-ss-theme="dark"] .ss-hero-orb small{color:#dfb5c4}
+html[data-ss-theme="dark"] .ss-hero-orb:after{border-color:rgba(255,255,255,.12)}
+@keyframes ss-orb-ring{to{transform:rotate(360deg)}}
+@media(max-width:680px){
+  .ss-hero-foot{gap:13px}
+  .ss-hero-orb{width:121px;height:121px}
+  .ss-hero-orb strong{font-size:31px}
+  .ss-hero-orb small{font-size:11px}
+  html:not([data-ss-theme="dark"]) .ss-hero:after{background:linear-gradient(90deg,rgba(255,239,244,.96),rgba(255,232,239,.8))}
+  html[data-ss-theme="dark"] .ss-hero:after{background:linear-gradient(90deg,rgba(9,11,17,.95),rgba(9,11,17,.72))}
+}
+@media(prefers-reduced-motion:reduce){.ss-hero-orb:before{animation:none}}
+
+/* Real account entry (activates only after the founder connects Supabase). */
+.ss-auth-page{min-height:calc(100vh - 146px);padding:36px clamp(18px,6vw,70px) 85px;background:radial-gradient(ellipse at 84% 0%,rgba(196,35,75,.13),transparent 42%),#f7f5f7}
+.ss-auth-back{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:800;color:#a51843;margin-bottom:34px}
+.ss-auth-back:hover{text-decoration:underline}
+.ss-auth-card{background:#fff;max-width:615px;margin:auto;padding:clamp(26px,5vw,56px);border:1px solid #efdee5;border-radius:30px;box-shadow:0 25px 80px rgba(85,28,55,.09)}
+.ss-auth-card h1{font-size:clamp(34px,4vw,49px);line-height:1.1;margin:17px 0;font-weight:850;letter-spacing:-.065em;color:#2e2431}
+.ss-auth-card h1 em{font-style:normal;color:#b50c3a}
+.ss-auth-card>p{font-size:16px;line-height:1.75;color:#6a5d6b;margin:0 0 26px}
+.ss-auth-form{display:grid;gap:11px;margin:20px 0 0}
+.ss-auth-form label{font-size:14px;font-weight:850;color:#332734}
+.ss-auth-form>div{min-height:56px;border:1px solid #e6ccd7;border-radius:15px;background:#fff9fb;display:flex;align-items:center;gap:10px;padding:0 17px;color:#ad1741}
+.ss-auth-form input{border:0;min-width:0;width:100%;font-size:16px;background:transparent;color:#27232b;outline:none}
+.ss-auth-form>button[type="submit"]{background:#ae113f;color:#fff;border:0;border-radius:15px;min-height:53px;font-size:15px;font-weight:850;transition:transform .24s,background .24s}
+.ss-auth-form>button[type="submit"]:hover{transform:translateY(-3px);background:#83092c}
+.ss-auth-form>button:disabled{opacity:.6;cursor:wait}
+.ss-auth-form small{font-size:13px;line-height:1.55;color:#7c6c7b}
+.ss-auth-form .ss-auth-secondary{background:transparent;border:0;padding:10px;color:#a60f39;font-weight:750;font-size:14px}
+.ss-auth-notice,.ss-auth-success{display:flex;align-items:center;gap:13px;border-radius:16px;border:1px solid #efd4dd;background:#fff5f8;padding:20px;color:#85304c;font-size:14px;line-height:1.6}
+.ss-auth-notice>svg{flex-shrink:0}
+.ss-auth-success{flex-direction:column;text-align:center;font-size:16px}
+.ss-auth-success a{font-weight:850;color:#a90c39}
+.ss-auth-card .ss-auth-message{margin:18px 0 0;color:#a00937;font-weight:700;font-size:14px}
+.ss-auth-card .ss-auth-footnote{display:flex;align-items:center;gap:9px;border-top:1px solid #f1e5e9;margin:26px 0 0;padding-top:20px;font-size:13px;color:#7f737f}
+html[data-ss-theme="dark"] .ss-auth-page{background:radial-gradient(ellipse at 84% 0%,rgba(196,35,75,.13),transparent 43%),#0d1420}
+html[data-ss-theme="dark"] .ss-auth-card{background:#182334;border-color:#35455a}
+html[data-ss-theme="dark"] .ss-auth-card h1,html[data-ss-theme="dark"] .ss-auth-form label{color:#f2e6ee}
+html[data-ss-theme="dark"] .ss-auth-card>p,html[data-ss-theme="dark"] .ss-auth-form small{color:#b6c6d6}
+html[data-ss-theme="dark"] .ss-auth-form>div{background:#202e41;border-color:#445167}
+html[data-ss-theme="dark"] .ss-auth-form input{color:#fff}
+html[data-ss-theme="dark"] .ss-auth-notice,html[data-ss-theme="dark"] .ss-auth-success{background:#332235;border-color:#81435b;color:#f5c8d8}
+
+/* Next iteration: high-contrast blueprint, hero-only brand, and opt-in filters. */
+.ss-hero-name{display:block;margin:0 0 21px;color:#26384b;font-size:clamp(34px,4.4vw,62px);font-weight:950;letter-spacing:-.08em;line-height:1.04;text-shadow:0 2px 0 rgba(255,255,255,.24)}
+.ss-hero-name span{color:#ae1142}
+.ss-hero-name + h1{margin-top:0;font-size:clamp(40px,4.6vw,70px)}
+html:not([data-ss-theme="dark"]) .ss-hero{background:#f2f7fc;color:#1a2736}
+html:not([data-ss-theme="dark"]) .ss-hero-blueprint{background:radial-gradient(ellipse at 79% 41%,#dbeaf6 0%,#e9f0f7 48%,#f8fafc 100%)}
+html:not([data-ss-theme="dark"]) .ss-hero-blueprint svg{filter:brightness(.59) contrast(1.75) saturate(1.1);opacity:.91}
+html:not([data-ss-theme="dark"]) .ss-hero:after{background:linear-gradient(90deg,#f7f9fc 0%,rgba(248,250,253,.99) 33%,rgba(249,251,254,.77) 57%,rgba(237,245,252,.08) 100%)}
+html:not([data-ss-theme="dark"]) .ss-hero-grid{background-image:linear-gradient(rgba(25,67,93,.065) 1px,transparent 1px),linear-gradient(90deg,rgba(25,67,93,.065) 1px,transparent 1px)}
+html:not([data-ss-theme="dark"]) .ss-hero-content>p{color:#3d5368;font-weight:600}
+html[data-ss-theme="dark"] .ss-hero-name{color:#fff}
+html[data-ss-theme="dark"] .ss-hero-name span{color:#ff9ab8}
+.ss-search-top{display:flex;align-items:stretch;gap:12px}
+.ss-search-top>.ss-search-field{min-width:0;flex:1}
+.ss-refine-toggle{display:flex;align-items:center;justify-content:center;gap:10px;position:relative;border:1px solid #d8aebd;border-radius:16px;background:#fff4f7;color:#98133d;padding:0 19px;font-weight:850;font-size:14px;transition:background .25s,transform .25s,box-shadow .25s}
+.ss-refine-toggle:hover,.ss-refine-toggle.is-active{background:#a91542;color:#fff;transform:translateY(-2px);box-shadow:0 9px 25px rgba(169,21,66,.16)}
+.ss-refine-toggle i{position:absolute;top:8px;right:8px;width:7px;height:7px;border-radius:50%;background:#e8b72b;box-shadow:0 0 0 2px #fff}
+.ss-filter-row-open{animation:ss-drop-arrive .24s ease both}
+.ss-clear-filters{border:1px solid #efd1dc;border-radius:14px;background:#fff;color:#8c2344;padding:10px 14px;font-size:13px;font-weight:800}
+.ss-clear-filters:hover{background:#ffe9f0}
+html[data-ss-theme="dark"] .ss-refine-toggle{background:#263349;color:#ffc2d6;border-color:#85445e}
+html[data-ss-theme="dark"] .ss-refine-toggle:hover,html[data-ss-theme="dark"] .ss-refine-toggle.is-active{background:#b31a49;color:#fff}
+html[data-ss-theme="dark"] .ss-clear-filters{background:#263349;color:#ffbed3;border-color:#5c3a50}
+
+/* Founder-selected sidebar concept B + C: blueprint rail x crimson glass. */
+.ss-sidebar{background:radial-gradient(circle at 105% 12%,rgba(255,55,118,.26),transparent 42%),linear-gradient(157deg,#101f32 0%,#2a2437 39%,#721632 100%);border-right:1px solid rgba(222,185,206,.2)}
+.ss-sidebar:before{background-image:linear-gradient(rgba(179,213,240,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(179,213,240,.08) 1px,transparent 1px),radial-gradient(circle at 0 88%,rgba(232,39,93,.28),transparent 47%);background-size:24px 24px,24px 24px,auto;opacity:.8;mask-image:linear-gradient(180deg,#000,rgba(0,0,0,.65))}
+.ss-sidebar .ss-nav-item{background:linear-gradient(120deg,rgba(229,239,255,.1),rgba(220,69,109,.08));border:1px solid rgba(230,233,245,.22);box-shadow:inset 0 1px 0 rgba(255,255,255,.13),0 8px 18px rgba(7,14,27,.12);backdrop-filter:blur(12px)}
+.ss-sidebar .ss-nav-item:hover{background:linear-gradient(110deg,rgba(184,28,76,.55),rgba(248,128,170,.26));border-color:rgba(255,207,223,.6)}
+.ss-sidebar .ss-nav-item.is-active{background:linear-gradient(120deg,#fcf6fa,#e8e8f3);color:#9b153e;border-color:#fff}
+.ss-sidebar-toggle{width:34px;height:34px;display:grid;place-items:center;flex-shrink:0;border-radius:50%;border:1px solid rgba(255,239,246,.51);box-shadow:0 0 0 3px rgba(255,255,255,.05),0 7px 23px rgba(0,0,0,.18);background:linear-gradient(140deg,rgba(226,121,154,.24),rgba(255,255,255,.1));transition:transform .3s,background .3s,box-shadow .3s}
+.ss-sidebar-toggle:hover{background:#c71a4b;color:#fff;transform:rotate(-10deg) scale(1.13);box-shadow:0 0 0 5px rgba(224,55,107,.2),0 6px 23px rgba(175,15,67,.4)}
+.ss-collapsed .ss-sidebar-head{width:100%;align-items:center;gap:17px;margin-bottom:45px}
+.ss-collapsed .ss-sidebar-head .ss-brand-symbol{display:grid!important;width:44px;height:44px;border-radius:16px;box-shadow:0 7px 25px rgba(255,255,255,.15)}
+
+/* Loader: one looping Earth-to-orbiting-Moon rocket, no mission captions. */
+.ss-ml-earth-moon{background:radial-gradient(ellipse at 70% 29%,#213653 0%,#111c30 49%,#070c17 100%);color:#fff;--ss-ml-time:5.2s}
+.ss-ml-earth-moon .ss-ml-grid{background-image:linear-gradient(rgba(157,192,224,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(157,192,224,.045) 1px,transparent 1px)}
+.ss-ml-earth-moon .ss-ml-loading-label{color:#f2f6fe;font-weight:850;font-size:clamp(22px,3vw,37px);text-shadow:0 3px 20px rgba(0,0,0,.24)}
+.ss-ml-earth-moon .ss-ml-progress{background:rgba(215,229,253,.17)}
+.ss-ml-earth-moon .ss-ml-progress span{background:linear-gradient(90deg,#d62758,#ffadca)}
+.ss-ml-earth-moon .ss-ml-actions button{background:rgba(255,255,255,.1);border:1px solid rgba(229,237,250,.3);color:#e5eaf8}
+.ss-ml-earth-moon .ss-ml-actions button:hover{background:rgba(225,65,113,.3);border-color:#ff9cba;color:#fff}
+.ss-ml-moon-orbit{animation:ss-ml-moon-drift 8s ease-in-out infinite alternate}
+.ss-ml-rocket-flame{animation:ss-ml-flame .22s ease-in-out infinite alternate;transform-origin:-48px 0}
+.ss-ml-stars{animation:ss-ml-twinkle 2.4s ease-in-out infinite alternate}
+.ss-ml-transfer-orbit{animation:ss-ml-dash 7s linear infinite}
+@keyframes ss-ml-moon-drift{0%{transform:translate(-18px,13px)}50%{transform:translate(0,-9px)}100%{transform:translate(21px,12px)}}
+@keyframes ss-ml-flame{from{transform:scaleX(.75);opacity:.65}to{transform:scaleX(1.18);opacity:1}}
+@keyframes ss-ml-dash{to{stroke-dashoffset:-120}}
+
+@media(max-width:680px){
+  .ss-hero-name{font-size:39px;margin-bottom:16px}
+  .ss-hero-name+h1{font-size:43px}
+  html:not([data-ss-theme="dark"]) .ss-hero:after{background:linear-gradient(90deg,rgba(248,250,253,.97),rgba(248,250,253,.82))}
+  .ss-search-top{gap:8px}
+  .ss-refine-toggle{min-width:54px;padding:0 14px}
+  .ss-refine-toggle span{display:none}
+  .ss-search-field input{font-size:14px}
+  .ss-filter-row-open{display:flex;flex-direction:column}
+  .ss-filter-row-open .ss-drop{width:100%;flex:unset}
+  .ss-ml-earth-moon .ss-ml-scene{width:100%;margin:0}
+}
+@media(prefers-reduced-motion:reduce){.ss-ml-moon-orbit,.ss-ml-rocket-flame,.ss-ml-stars,.ss-ml-transfer-orbit{animation:none!important}}

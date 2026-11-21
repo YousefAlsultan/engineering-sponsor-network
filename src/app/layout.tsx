@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import '@fontsource-variable/inter';
 import './globals.css';
+import './student-profile.css';
+import './selected-design.css';
 import SponSierraShell from '@/components/sponsierra-shell';
 export const metadata: Metadata = {
   title: 'SponSierra | Engineering Your Next Breakthrough',

@@ -13,6 +13,14 @@ export const publicFields = [
 ] as const;
 
 export function publicSponsors(records: SponsorRecord[]): SponsorRecord[] {
-  return records.filter(({fields: f}) => f['Publish on Website'] === true && f['Verification Status'] === 'Verified Sponsor')
+  return records.filter(({fields: f}) => {
+    if (f['Publish on Website'] !== true || f['Verification Status'] !== 'Verified Sponsor') return false;
+    // Phase one serves U.S.-based teams. Preserve unknown eligibility as
+    // unconfirmed; hide programs explicitly limited to other countries.
+    const regions = f['Geographic Eligibility'];
+    const eligible = Array.isArray(regions) ? regions.map(String) : regions ? [String(regions)] : [];
+    const usOptions = ['United States', 'USA', 'US', 'North America', 'Global', 'Unknown'];
+    return eligible.length === 0 || eligible.some(region => usOptions.includes(region));
+  })
     .map(record => ({ id: record.id, fields: Object.fromEntries(publicFields.map(key => [key, record.fields[key] ?? null])) }));
 }

@@ -31,8 +31,8 @@ export default function SponDropdown({label,options,value,onChange,icon:Icon}: {
     if(event.key==='End'){event.preventDefault();setActive(options.length-1)}
   };
   return <div className={`ss-drop ${open?'is-open':''}`} ref={root} onKeyDown={onKey}>
-    <button type="button" ref={trigger} className="ss-drop-trigger" aria-label={`${label}: ${value}`} aria-expanded={open} aria-haspopup="listbox" aria-controls={id} onClick={()=>{setActive(Math.max(0,options.indexOf(value)));setOpen(v=>!v)}}>
-      <span className="ss-drop-trigger-icon"><Icon size={17}/></span><span className="ss-drop-choice"><small>{label}</small><strong>{value}</strong></span><ChevronDown className="ss-drop-chevron" size={18}/>
+    <button type="button" ref={trigger} className="ss-drop-trigger" aria-label={`${label}: ${value||'Any'}`} aria-expanded={open} aria-haspopup="listbox" aria-controls={id} onClick={()=>{setActive(Math.max(0,options.indexOf(value)));setOpen(v=>!v)}}>
+      <span className="ss-drop-trigger-icon"><Icon size={17}/></span><span className="ss-drop-choice"><strong>{value||label}</strong></span><ChevronDown className="ss-drop-chevron" size={18}/>
     </button>
     {open&&<div className="ss-drop-menu" role="listbox" id={id} ref={menu} aria-label={label}>
       <div className="ss-drop-menu-head">SELECT {label.toUpperCase()}</div>

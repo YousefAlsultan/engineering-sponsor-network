@@ -8,5 +8,6 @@ playwright-report/
 .local/
 dist/
 build/
+out/
 .DS_Store
 *.log

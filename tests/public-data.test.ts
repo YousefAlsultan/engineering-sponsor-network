@@ -12,8 +12,9 @@ test('contact addresses and private notes never cross the public boundary', () =
   assert.equal(record.fields['Company Name'], 'Public company');
   assert.equal(JSON.stringify(record).includes('private'), false);
 });
-test('export contains no email addresses or private source URLs and retains all published programs', () => {
-  assert.equal(publicSponsors(data as SponsorRecord[]).length, 27);
+test('export contains no email addresses or private source URLs and excludes non-U.S.-only programs', () => {
+  assert.equal(publicSponsors(data as SponsorRecord[]).length, 26);
+  assert.equal(publicSponsors(data as SponsorRecord[]).some(record => record.id === 'sponsor-26'), false);
   assert.doesNotMatch(JSON.stringify(data), /[\w.+-]+@[\w.-]+\.[a-z]{2,}|app\.notion\.com|notion\.so/i);
 });
 

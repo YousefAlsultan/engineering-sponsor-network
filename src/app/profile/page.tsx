@@ -1,2 +1,3 @@
-import UniversityProfile from '@/components/sponsierra-profile';
-export default function Page(){ return <UniversityProfile/>; }
+import StudentProfile from '@/components/student-profile';
+import AccountRequired from '@/components/account-required';
+export default function Page(){ return <AccountRequired><StudentProfile/></AccountRequired>; }
